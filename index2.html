@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HFG CAPITAL</title>
+    <meta name="description" content="HFG CAPITAL" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .navbar {
+        background-color: #000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .navbar form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: 20px;
+      }
+      .navbar input[type="text"],
+      .navbar button[type="submit"] {
+        height: 30px;
+        padding: 0 10px;
+        font-size: 10px;
+        border: none;
+        border-radius: 5px;
+      }
+      .navbar input[type="text"] {
+        margin-right: 10px;
+      }
+      .navbar button[type="submit"] {
+        <!-- background-color: #0077ff;
+        color: #fff;-->
+  	background-color: white;
+  	color: black;
+      }
+      .logo {
+      max-height: 90%;
+      max-width: 90%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <form>
+        <input type="text" placeholder="xxxx-xx-xx">
+        <button type="submit">login</button>
+      </form>
+    </div>
+    <img class="logo" src="logo.jpeg" />
+  </body>
+</html>
